@@ -1,0 +1,87 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/*Fin du reset css*/
+
+header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+
+header > div.row-limit-size {
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+div.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-1, .nav-2 {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.nav-1 {
+    padding-right: 80px;
+}
+
+.nav-2 {
+    padding-left: 80px;
+} 
+
+#h1 {
+    height: 70px;
+    line-height: 70px;
+    display: block;
+}
+
+#h1 > a {
+    font-family: 'Dancing Script';
+    color: #3f3f3f;
+    text-decoration: none;
+    font-size: 2.2rem;
+}
+
+ul.main-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header > div.row-limit-size > nav > ul.main-menu > li {
+    list-style-type: none;
+    height: 70px;
+    line-height: 70px;
+}
+
+header > div.row-limit-size > nav > ul.main-menu > li > a {
+    display: block;
+    text-decoration: none;
+    color: #3f3f3f;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
