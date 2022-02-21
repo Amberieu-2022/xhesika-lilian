@@ -67,6 +67,8 @@
         </figure>
         <h2>BEAUTY. LUXE. ELEGANCE.</h2>
         <div id="prestation">
+            <div id="back">
+            </div>
             <div>
                 <div id="first-b">
                     <h3>Bienvenue</h3>
@@ -124,13 +126,10 @@
                 <img src="./img/contenu/massage.jpg" alt="Image de massages.">
 
             </div>
-
-
-
         </div>
-
         <p class="offre">offre promo</p>
-        <div id="promo">
+
+        <div id="promo" class="row-limit-size">
 
             <div>
                 <div class="promo-1">

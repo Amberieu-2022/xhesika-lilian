@@ -25,7 +25,8 @@ header {
     width: 100%;
     position: sticky;
     top: 0;
-    background-color: rgb(248, 234, 215);
+    background-color:rgb(255, 245, 231);
+    z-index: 9999;
 }
 
 header > div.row-limit-size {
@@ -96,8 +97,7 @@ header > div.row-limit-size > nav > ul > li:hover > a {
 }
 
 .burger-menu{
-    display: none; 
-    z-index: 9999;      
+    display: none;     
 }
 #icone-burger{
     display: none;
@@ -155,11 +155,11 @@ header > div.row-limit-size > nav > ul > li:hover > a {
     max-width: 1400px;
     width: 100%;
     margin: 0 auto;
+    position: relative;
 
 }
 #first-b{
-    padding-bottom: 50px;
-    padding-left: 100px;
+    padding: 40px 0 40px 400px;
 }
 .bienvenue{
     display: flex;
@@ -171,6 +171,7 @@ h3{
     justify-content: center;
     text-align: center;
     padding-left: 30px;
+    color: #DCCDCD;
     
 }
 .bienvenue-para{
@@ -178,11 +179,13 @@ h3{
     font-family: 'Raleway';
     font-size: 20px;
     padding-left: 50px;
+    color: #DCCDCD;
 }
 .intro{
     font-family: 'Raleway';
     font-size: 25px;
     text-align: justify;
+    color: #DCCDCD;
 }
 #right{
     padding-top: 150px;
@@ -205,12 +208,16 @@ h4{
 h5{
     font-family: 'Cinzel';
     font-size: 40px;
-    padding: 70px 0 50px 0;
+    padding: 70px 30px 50px 30px;
+    color: #DCCDCD;
+    
 }
 .corp{
     font-family: 'Raleway';
     font-size: 25px;
     text-align: justify;
+    color: #DCCDCD;
+    padding: 0 30px 0 30px;
 }
 h6{
     font-family: 'Cinzel';
@@ -223,7 +230,7 @@ h6{
     font-family: 'Cinzel';
     font-size: 50px;
     text-align: center;
-    padding-top: 80px;
+    padding-top: 160px;
     padding-bottom: 40px;
 }
 #promo{
@@ -247,6 +254,16 @@ h6{
     padding-top: 30px;
 
 }
+
+#back {
+    position:absolute;
+    background-color: #ad7d5b;
+    width: 50%;
+    height: 90%;
+    right: 0;
+    z-index: -1;
+}
+
 footer{
     position: relative;
     background-color: #ad7d5b;
@@ -382,4 +399,5 @@ h2{
     h2{
         font-size: 35px;
     }
+    
 }
