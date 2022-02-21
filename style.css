@@ -25,16 +25,16 @@ header {
     width: 100%;
     position: sticky;
     top: 0;
-    background-color: #fff;
+    background-color: rgb(248, 234, 215);
 }
 
 header > div.row-limit-size {
-    max-width: 1200px;
+    max-width: 1000px;
     width: 95%;
     margin: 0 auto;
 }
 
-div.flex {
+.flex {
     display: flex;
     justify-content: space-between;
 }
@@ -47,12 +47,16 @@ div.flex {
 }
 
 .nav-1 {
-    padding-right: 80px;
+    padding-right: 12%;
 }
 
 .nav-2 {
-    padding-left: 80px;
+    padding-left: 12%;
+    
 } 
+.show{
+    display: block !important;
+}
 
 #h1 {
     height: 70px;
@@ -84,4 +88,298 @@ header > div.row-limit-size > nav > ul.main-menu > li > a {
     text-decoration: none;
     color: #3f3f3f;
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+header > div.row-limit-size > nav > ul > li:hover > a {
+    color: #ad7d5b;
+    font-weight: 500;
+}
+
+.burger-menu{
+    display: none; 
+    z-index: 9999;      
+}
+#icone-burger{
+    display: none;
+}
+#menu-b{
+    display: none;
+}
+#logo-menu{
+    display: none;
+}
+#icones{
+    display: none;
+}
+#info{
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    background-color: #ad7d5bc0;
+}
+#icone-info{
+    padding: 20px;
+}
+#adresse{
+    font-family: 'Raleway';
+    padding-top: 25px;
+    color: rgb(34, 27, 27);
+}
+#horaires{
+    font-family: 'Raleway';
+    padding-top: 15px;
+    padding-bottom: 10px;
+    color: rgb(34, 27, 27);
+    
+}
+
+#contact{
+    height: 200px;
+    background-color: #ad7d5b;
+    display: flex;
+    justify-content: space-around;
+}
+
+.b-logo{
+    text-align: center;
+    font-family: 'Dancing Script';
+    font-size: 40px;
+    padding-top: 50px;
+}
+.logo-footer{
+    position: relative;
+    margin-top: -25px;
+}
+#prestation{
+    padding-top: 150px;
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+#first-b{
+    padding-bottom: 50px;
+    padding-left: 100px;
+}
+.bienvenue{
+    display: flex;
+    justify-content: space-between;
+}
+h3{
+    font-size: 60px;
+    font-family: 'Cinzel';
+    justify-content: center;
+    text-align: center;
+    padding-left: 30px;
+    
+}
+.bienvenue-para{
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 20px;
+    padding-left: 50px;
+}
+.intro{
+    font-family: 'Raleway';
+    font-size: 25px;
+    text-align: justify;
+}
+#right{
+    padding-top: 150px;
+    padding-right: 80px;
+}
+h4{
+    font-family: 'Cinzel';
+    font-size: 40px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+}
+.soin{
+    font-family: 'Raleway';
+    font-size: 25px;
+    text-align: justify;
+}
+.left{
+    padding: 100px 65px;
+}
+h5{
+    font-family: 'Cinzel';
+    font-size: 40px;
+    padding: 70px 0 50px 0;
+}
+.corp{
+    font-family: 'Raleway';
+    font-size: 25px;
+    text-align: justify;
+}
+h6{
+    font-family: 'Cinzel';
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+}
+.offre{
+    font-family: 'Cinzel';
+    font-size: 50px;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+#promo{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+.promo-1{
+    position: relative;
+}
+
+.img-promo{
+    position: absolute;
+    bottom: -90px;
+    right: -90px;
+}
+.titre-promo{
+    font-family: 'Raleway';
+    font-size: 22px;
+    padding-top: 30px;
+
+}
+footer{
+    position: relative;
+    background-color: #ad7d5b;
+    bottom: 0;
+    height: 200px;
+}
+#icone-footer{
+    padding-top: 50px;
+}
+div#navlist{
+    height: 30px;
+    background-color: #ad7d5b;
+}
+#navlist > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    text-align: center;
+}
+#navlist > ul > li > a {
+    text-decoration: none;
+    padding: 10px;
+    color: #FFE1A2;
+    font-family: 'Raleway';
+    
+}
+p.copy{
+    display: flex;
+    justify-content: center;
+    background-color: #ad7d5b;
+
+}
+.copy a{
+    text-decoration: none;
+    color:#FFE1A2;
+    padding-bottom: 10px;
+
+}
+.copy:hover > a {
+    color: black;
+    transition: all .3s ease-in-out;
+}
+#big-logo{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+h2{
+    font-family: 'Raleway';
+    font-size: 50px;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+
+}
+
+@media screen and (max-width: 710px){
+    .row-limit-size{
+        
+        display: block !important;
+        position: relative;
+    }
+
+    .nav-1, .nav-2{
+        display: none;
+    }
+    
+    nav.burger-menu {
+        display: block;
+        height: 100vh;
+        z-index: 9999;
+    }
+
+    .burger-menu > ul {
+        display: block;
+       
+    }
+    .burger-menu > ul > li > a {
+        text-align: center;
+    }
+    #icone-burger{
+        display: block !important;
+        cursor: pointer;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding-top: 20px;
+    }
+    #logo-menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px;
+    }
+    #icones{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 20px 10px 20px;
+    }
+    #icones img{
+        padding-left: 20px;
+    }
+    #icone-info{
+        display: none;
+    }
+    #info{
+        height: 120px;
+        height: 70px;
+        
+    }
+    #adresse, #horaires{
+        padding-left: 10px;
+    }
+    .b-logo{
+        font-size: 25px;
+    }
+    #icone-footer img{
+        width: 20px;
+    }
+    div#navlist{
+        font-size: 10px;
+    }
+    .copy{
+        font-size: 12px;
+    }
+    #big-logo{
+        width: 450px;
+    }
+    h2{
+        font-size: 35px;
+    }
 }
